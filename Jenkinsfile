@@ -17,6 +17,6 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-        echo 'WebHook test'
+      
     }
 }
