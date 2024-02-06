@@ -20,4 +20,7 @@ pipeline {
       
     }
     echo 'Testing...'
+    emailext body: 'Test Message',
+    subject: 'Test Subject on Jenkins',
+    to: 'navansundaram@hotmail.com'
 }
