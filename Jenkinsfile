@@ -17,15 +17,17 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-     // echo 'Testing...'
-        
-   //  emailext (
-   // body: 'Test Message',
-   // subject: 'Test Subject on Jenkins',
-   // to: 'navansundaram@hotmail.com'
-  //  )
+    
     }
 
+      echo 'Testing...'
+        
+     emailext (
+    body: 'Test Message',
+    subject: 'Test Subject on Jenkins',
+    to: 'navansundaram@hotmail.com'
+    )
+    
     post {
             always {
                 emailext (
