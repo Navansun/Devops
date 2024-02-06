@@ -29,17 +29,17 @@ pipeline {
                                     <p>Check the <a href="${BUILD_URL}">console output</a>.</p>
                                 </body>
                             </html>''',
-                    to: 'jaiswaladi246@gmail.com',
+                    to: 'navansundaram@gmail.com',
                     from: 'jenkins@example.com',
                     replyTo: 'jenkins@example.com',
                     mimeType: 'text/html'
                 )
             }
-    emailext (
-    body: 'Test Message',
-    subject: 'Test Subject on Jenkins',
-    to: 'navansundaram@hotmail.com'
-    )
+   //  emailext (
+   // body: 'Test Message',
+   // subject: 'Test Subject on Jenkins',
+   // to: 'navansundaram@hotmail.com'
+  //  )
     }
     
 }
