@@ -17,10 +17,10 @@ pipeline {
                 echo 'Deploying....'
             }
         }
-      
-    }
-    echo 'Testing...'
+      echo 'Testing...'
     emailext body: 'Test Message',
     subject: 'Test Subject on Jenkins',
     to: 'navansundaram@hotmail.com'
+    }
+    
 }
