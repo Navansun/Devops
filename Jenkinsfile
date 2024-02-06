@@ -20,7 +20,7 @@ pipeline {
     
     }
 
-     sh echo 'Testing...'
+    // sh echo 'Testing...'
     
     post {
             always {
